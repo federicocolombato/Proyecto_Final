@@ -4,5 +4,8 @@ from django.contrib import admin
 
 
 urlpatterns = [
-    path('index', views.index)
+    path('index', views.index),
+    path('Doctores'. views.doctor),
+    path('Pacientes', views.paciente)
+    
 ]

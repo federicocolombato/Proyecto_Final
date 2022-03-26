@@ -28,3 +28,4 @@ class Facturas(models.Model):
     
     def __str__(self):
         return f"Numero de Factura: {self.numeroFactura} - Empresa {self.empresa} - Direccion {self.direccion} - Monto {self.monto}"
+
