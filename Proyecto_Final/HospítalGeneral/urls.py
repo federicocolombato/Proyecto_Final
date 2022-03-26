@@ -1,11 +1,10 @@
 from django.urls import include, path
 from HospítalGeneral import views
-from django.contrib import admin
+
 
 
 urlpatterns = [
-    path('index', views.index),
-    path('Doctores'. views.doctor),
-    path('Pacientes', views.paciente)
-    
+    path('index', views.index, name = 'Index'),
+    path('paciente', views.paciente, name = 'Paciente'),
+    path('doctor', views.doctor, name = 'Doctor')    
 ]
