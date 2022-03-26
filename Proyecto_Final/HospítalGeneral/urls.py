@@ -1,5 +1,5 @@
 from django.urls import include, path
-from Proyecto_Final.HospítalGeneral import views
+from HospítalGeneral import views
 
 
 urlpatterns = [
