@@ -14,6 +14,7 @@ class Doctor(models.Model):
 class Paciente(models.Model):
     nombre= models.CharField(max_length=30)
     apellido= models.CharField(max_length=30)
+    dni=models.CharField(max_length=15)
     sexo= models.CharField(max_length=10)
     email= models.EmailField()
     fechaDeIngreso= models.DateTimeField('Fecha de Ingreso')
