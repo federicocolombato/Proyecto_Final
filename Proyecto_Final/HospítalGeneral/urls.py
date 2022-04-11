@@ -7,6 +7,13 @@ urlpatterns = [
     path("Paciente", views.paciente, name = "Paciente"),
     path("Doctor", views.doctor, name = "Doctor"),
     path("Padre", views.padre, name = "Padre")
+    path('doctorFormulario', views.doctorFormulario, name="DoctorFormulario"),
+    path('pacienteFormulario', views.pacienteFormulario, name="PacienteFormulario")
 ]
+
+
+
+
+
 
 

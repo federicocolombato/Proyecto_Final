@@ -1,7 +1,6 @@
 from django.http.request import QueryDict
 from django.shortcuts import render, HttpResponse
 from django.http import HttpResponse
-from HospítalGeneral.models import *
 from HospítalGeneral.templates.HospítalGeneral import *
 from django.template import loader
 
