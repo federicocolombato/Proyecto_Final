@@ -57,7 +57,7 @@ ROOT_URLCONF = 'Proyecto_Final.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:/Users/Facu/Desktop/Proyecto_Final/Proyecto_Final/HospítalGeneral/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

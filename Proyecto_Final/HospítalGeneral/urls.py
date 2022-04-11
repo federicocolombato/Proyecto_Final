@@ -1,9 +1,12 @@
 from django.urls import include, path
 from HospítalGeneral import views
-
+from django.template import loader
 
 urlpatterns = [
-    path('index', views.index, name ='Index'),
-    path('paciente', views.paciente, name ='Paciente'),
-    path('doctor', views.doctor, name ='Doctor')
+    path("Index", views.index, name = "Index"),
+    path("Paciente", views.paciente, name = "Paciente"),
+    path("Doctor", views.doctor, name = "Doctor"),
+    path("Padre", views.padre, name = "Padre")
 ]
+
+
